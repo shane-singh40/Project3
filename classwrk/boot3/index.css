@@ -1,0 +1,40 @@
+body{
+  padding: 10px;
+}
+.collapseNYC{
+  background-color: lightblue;
+  padding: 20px;
+}
+.collapseNYC img{
+  width: 28%;
+  height: auto;
+  margin-left: 10px;
+}
+.collapseBor figure{
+  padding-top: 20px;
+}
+.collapseBor img{
+  width: 50%;
+}
+.carouselSize{
+  width: 700px;
+  height: 500px;
+}
+.carouselSize img{
+  width: 100%;
+  height: 100%;
+}
+.carouselContainer{
+  width: 720px;
+  overflow: hidden;
+}
+.captionCSS{
+  width: 30%;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}

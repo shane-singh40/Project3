@@ -1,0 +1,258 @@
+.c1{
+  background-color: DarkOrange;
+  padding: 12px;
+}
+.c2{
+  background-color: DarkBlue;
+  padding: 12px;
+}
+.c3{
+  background-color: Gold;
+  padding: 12px;
+}
+.c4{
+  background: rgb(14, 17, 207);
+  padding: 12px;
+}
+.c5{
+  background: rgb(248, 254, 16);
+  padding: 12px;
+}
+.c6{
+  background: rgb(255, 105, 15);
+  padding: 12px;
+}
+.c7{
+  background-color: #ff8C00;
+  padding: 12px;
+}
+.c8{
+  background-color: #00008b;
+  padding: 12px;
+}
+.c9{
+  background-color: #ffd700;
+  padding: 12px;
+}
+.c10{
+  background: rgba(14, 17, 207, 0.1);
+  padding: 12px;
+}
+.c11{
+  background: rgba(14, 17, 207, 0.5);
+  padding: 12px;
+}
+.c12{
+  background: rgba(14, 17, 207, 1);
+  padding: 12px;
+}
+.gradient1{
+  height: 200px;
+  background-image: linear-gradient(DarkBlue,DarkOrange);
+}
+.gradient2{
+  height: 200px;
+  background-image: linear-gradient(to right,DarkBlue,DarkOrange);
+}
+.gradient3{
+  height: 200px;
+  background-image: linear-gradient(to top right,DarkBlue,Cyan);
+}
+.img1{
+  height: 400px;
+  width: 600px;
+  position: relative;
+}
+.mtains{
+width: 300px;
+background-color: rgba(14, 17, 207, 0.5);
+padding: 20px;
+text-align: center;
+font-size: 2em;
+position: absolute;
+top: 0px;
+left: 130px;
+}
+.container{
+  height: 400px;
+  width: 600px;
+  position: relative;
+}
+.mtainstxt{
+  width: 200px;
+  position: absolute;
+  font-size: 1.5em;
+  bottom: 50px;
+  left: 50px;
+  color: white;
+}
+.heroimg{
+  background-image: linear-gradient(rgba(16, 236, 254, 0.5),rgba(14, 17, 207, 0.5)),url("images/mtains.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:700px;
+  width: 700px;
+  position: relative;
+}
+.herotxt{
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  bottom: 30%;
+  color: white;
+  text-align: center;
+}
+.submit{
+  color: lightgray;
+  text-decoration: none;
+  display: inline-block;
+  margin: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.submit:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: red;
+  box-shadow: 0px  0px 2px 2px red;
+}
+.filter{
+  height: 1000px;
+  width: 1000px;
+  margin: auto;
+}
+.filter img{
+width: 40%;
+height: 40%;
+margin:20px;
+}
+.blur1{
+  filter: blur(1px);
+}
+.blur2{
+  filter: blur(5px);
+}
+.blur3{
+  filter: blur(10px);
+}
+.blur4{
+  filter: blur(20px);
+}
+/* Contrast */
+.contrast1{
+  filter: contrast(0%);
+}
+.contrast2{
+  filter: contrast(30%);
+}
+.contrast3{
+  filter: contrast(60%);
+}
+.contrast4{
+  filter: contrast(100%);
+}
+/* Invert */
+.invert1{
+  filter: invert(0%);
+}
+.invert2{
+  filter: invert(30%);
+}
+.invert3{
+  filter: invert(60%);
+}
+.invert4{
+  filter: invert(100%);
+}
+
+/*class activity*/
+.act1{
+  position: relative;
+  height:700px;
+  width:700px;
+}
+.act1 img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.invtxt{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 20%;
+  left:40%;
+  bottom: 10%;
+  text-align: center;
+  border: 10px solid white;
+  color: white;
+}
+.act2 img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.act2{
+  position: relative;
+  height: 700px;
+  width: 700px;
+  text-decoration: none;
+}
+.blrtxt{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  left:30%;
+  bottom: 10%;
+  text-align: center;
+  box-shadow: 0px 0px 10px teal;
+  text-decoration: none;
+  color: white;
+
+}
+.submit2{
+  color: lightgray;
+  text-decoration: none;
+  display: inline-block;
+  margin: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+
+
+}
+.submit2:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: red;
+  box-shadow: 0px  0px 2px 2px red;
+}
+.act3{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(81, 253, 6, 0.2)),url("images/lvgrm.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:700px;
+  width: 700px;
+  position: relative;
+}
+.text{
+  color: white;
+
+}
+.txt1{
+  padding: 20px;
+  height:
+}
+.txt2{
+  text-align: center;
+  padding: 60px;
+}
+.txt3{
+  text-align: right;
+  padding: 20px;
+  color: black;
+}
+.txt4{
+  position: absolute;
+  left: 20%;
+  bottom: 10%;
+  color: black;
+}

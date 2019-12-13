@@ -1,0 +1,306 @@
+body{
+  background-image: linear-gradient(rgba(16, 236, 254, 0.5),rgba(14, 17, 207, 0.5));
+}
+*{box-sizing: border-box;}
+/*--Header--*/
+.header{
+  height: 100px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(1, 89, 169);
+}
+.logo{
+  height:100px;
+  width: 100px;
+  float:left;
+  animation: zoom 10s;
+}
+@keyframes zoom {
+  0%{transform: scale(0);top:100px; left:100px}
+  100%{transform: scale(1);}
+}
+.titlec{
+height: 100px;
+width: 90%;
+float: right;
+font-family: arial black;
+color: white;
+}
+
+/*-- Display 1 --*/
+img{
+  width: 100%;
+  height: 100%;
+}
+.sec1{
+  height: 600px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(1, 89, 169);
+  background-image: linear-gradient(rgba(16, 236, 254, 0.5),rgba(14, 17, 207, 0.5)),url("images/bks1.jfif");
+
+}
+.wedo{
+  height: 25%;
+  width: 40%;
+  border: solid lightblue;
+  top: 40%;
+  left: 20%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: arial black;
+  font-size: 12px;
+  text-align: justify;
+  padding: 10px;
+}
+/*-- Display 2 --*/
+.sec2{
+  height: 600px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(16, 236, 254, 0.5),rgba(14, 17, 207, 0.5)),url("images/bks1.jfif");
+}
+.titles{
+  height: auto;
+  width: 100%;
+  font-family: arial black;
+  color: white;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  background-color: rgb(1, 89, 169);
+  overflow: hidden;
+}
+/*-- Slideshow*--*/
+.show{
+  overflow: hidden;
+  width: 800px;
+  height: 540px;
+  margin: auto;
+}
+.slide img{
+  width: auto;
+  height: 100%;
+}
+.wrapper{
+  width: 2400px;
+  height: 540px;
+  animation: show1 15s infinite;
+}
+.slide{
+  float: left;
+  width: 800px;
+  height: 100%;
+  font-size: 20em;
+  text-align: center;
+  background-color: white;
+}
+@keyframes show1 {
+  0%{margin-left: 0px}/*-- show first image--*/
+  33.33%{margin-left: -800px}/*-- show second image--*/
+  66.66%{margin-left: -1600px}/*-- show third image--*/
+  100%{margin-left: 0px}
+}
+/*-- sec3 --*/
+.sec3{
+  height: 600px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(1, 89, 169);
+  position: relative;
+}
+.rlstxt{
+  color: white;
+  height: 25%;
+  width: 40%;
+  top: 70%;
+  left:30%;
+  border: solid white;
+  position: absolute;
+}
+.sec4{
+  height: 1200px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(1, 89, 169);
+  position: relative;
+}
+/*-- Modals --*/
+.modal1{
+  width:33.3%;
+  height: 600px;
+  float:left;
+  padding: 10px;
+}
+.modal1 img{
+  width: 80%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.openmodal1{
+  text-align: center;
+  background-color: darkblue;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  bottom: 20px;
+}
+.openmodal1:hover{
+  background-color: lightblue;
+  color: black;
+}
+.img1{
+width: 35%;
+height: 100%;
+float: left;
+}
+.img1 img{
+width: 100%;
+}
+.msgtxt1{
+  width: 49%;
+  height: 100%;
+  float: left;
+  padding-left: 25px;
+}
+.msgbox1{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background: linear-gradient(to bottom, white 0%,white 65%,#000000 65%,lightblue 35%,lightblue 100%);
+  margin: auto;
+  top: 200px;
+  left: 560px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.open1{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left:0 ;
+  right: 0;
+  background-color: rgba(100, 100, 100, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+.open1:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 0.2s;
+}
+.modalcontainer1{
+  width: 700px;
+  height: 220px;
+}
+.checkout1{
+  width: 700px;
+  height: 100px;
+}
+.carstyle{
+  width: 200px;
+  height: 30px;
+  float: left;
+  padding: 0;
+  margin:0;
+}
+.appdeal{
+  float: right;
+}
+.close{
+  padding: 15px;
+  text-decoration: none;
+  color: teal;
+}
+.close:hover{
+  color: black;
+  background-color: teal;
+}
+.cl1{
+  float: left;
+}
+.cl2{
+  float: right;
+}
+.img1 img{
+width: 100%;
+}
+.msgbox2{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background: linear-gradient(to bottom, white 0%,white 65%,#000000 65%,lightblue 35%,lightblue 100%);
+  margin: auto;
+  top: 200px;
+  left: 560px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.HP{
+  font-size: 15px;
+}
+/*-- Section 5 --*/
+
+.msgbox4{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background: linear-gradient(to bottom, white 0%,white 65%,#000000 65%,lightblue 35%,lightblue 100%);
+  margin: auto;
+  top: 200px;
+  left: 560px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.got{
+  font-size: 12px;
+}
+ /* -- flex media --*/
+ .flex-media {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightblue;
+  height: 200px;
+ }
+ .flex-media > div {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+ }
+ .copyright{
+   text-align: center;
+ }
+.chk{
+  font-size: 10px;
+}
+.Wrk{
+  height: 150px;
+  width: 300px;
+}
+.Wrk img{
+  height: 50px;
+  width: 50px;
+}
+.gr{
+  position: absolute;
+  animation: spin 10s infinite;
+}
+@keyframes spin {
+  0%{transform:rotate(0deg);}
+  30%{transform:rotate(360deg);}
+  60%{transform:rotate(-180deg);}
+  1000%{transform:rotate(0deg);}
+}

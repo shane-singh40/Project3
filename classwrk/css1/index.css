@@ -1,0 +1,37 @@
+p.body::first-letter{
+  font-size: 35px;
+  color: blue;
+  font-family: "arial black";
+}
+body{
+  background-color: lightblue;
+  padding: 20px;
+}
+.header{
+  color: blue;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Arial Black";
+  text-shadow: 10px 0px 10px black;
+
+}
+.author{
+  color: blue;
+  font-family: "arial black";
+  text-align: right;
+  font-size: 20px;
+}
+.body{
+  text-align: justify;
+}
+
+figcaption{
+  font-size: 20px;
+  text-align: left;
+  color: blue;
+  }
+.footer{
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+}

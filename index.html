@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css" >
+    <title>Portfolio By Shane Singh</title>
+  </head>
+  <body>
+      <!--Navbar with logo and collapsable button-->
+      <nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+
+      <!-- Hamburger Button-->
+      <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapseTab" aria-expanded="false"
+       aria-label='Toggle navigation'>
+      <span class='navbar-toggler-icon'></span></button>
+      <div class="collapse navbar-collapse navi1" id='collapseTab'>
+        <div class="navbar-nav">
+          <a href="#about" class="nav-item nav-link active">About</a>
+          <a href="#710projects" class="nav-item nav-link">Web Technology Projects</a>
+          <a href="#Cact" class="nav-item nav-link">Class Activities</a>
+          <a href="#contact" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+      <h1 class="header">Portfolio by Shane Singh</h1>
+      </nav>
+
+    <br><br><br><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="container container1 bg-dark col-sm-8" id="about">
+        <h3>Some things about myself</h3>
+        <p>Welcome to my Portfolio. I am currently a Digital Art and Design Major in the VAPA (Visual and Performing Arts) Academy at Queensborough Community College.
+          This will be a short presentation of the projects and activities I have comepleted during my ET-710 Course.</p>
+        </div>
+        <div class="headshot col-sm-4">
+          <img src="images/headshot/headshot.jpg" alt="Picture of Myself" title="Picture of Myself" >
+        </div>
+      </div>
+    </div>
+<br><br><br>
+
+    <!--Web Technology Projects-->
+    <div class="container">
+      <h1 id='710projects' class="bg-dark header2">Web Technology Projects</h1>
+    </div>
+    <br>
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-6" style="background-color:white">
+        <div class="card modcard" data-target="#modal1" data-toggle="modal">
+          <img src="images/projects/project1.jpg" alt="Project 1" style='width:100%' title="Project 1 - Dreaming Places">
+        <div class="crdtxt">
+          <h5> HTML Project 1 - Dreaming Places </h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6" style="background-color:white">
+        <div class="card modcard" data-target="#modal2" data-toggle="modal">
+          <img src="images/projects/project2.jpg" alt="Project 2" style='width:100%' title="Project 2 - Sales Website">
+        <div class="crdtxt">
+          <h5> HTML and CSS Project 2 - Dreaming Places </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- modal-->
+     <div class="modal fade" id="modal1">
+       <div class="modal-dialog modal-lg modal-dialog-centered">
+         <div class="modal-content">
+           <!-- modal header-->
+           <div class="modal-header">
+             <h4>HTML Project 1 - Dreaming Places</h4>
+             <button type="button" name="close" data-dismiss='modal'>&times;</button>
+           </div>
+           <!--modal body-->
+           <div class="modal-body bg-dark">
+             <img src="images/projects/project1.jpg" alt="Project 1" style='width:100%' title="Project 1 - Dreaming Places">
+             <p>This first project was aimed at showcasing basic HTML skills, such as layout, use of images and links and tables and lists.</p>
+             <p>I chose japan because I find the culture very interesting, and am a huge fan of their style of architecture and arts. After I finish college I hope to go there and take pictures of the people and places.</p>
+             <a href="project1/index.html" target="_blank" class="links"> Here is a look at my Project 1</a>
+           </div>
+           <hr>
+           <!--modal footer-->
+           <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-dismiss="modal"> Close</button>
+           </div>
+         </div>
+       </div>
+     </div>
+<!-- modal 2-->
+     <div class="modal fade" id="modal2">
+       <div class="modal-dialog modal-lg modal-dialog-centered">
+         <div class="modal-content">
+           <!-- modal header-->
+           <div class="modal-header">
+             <h4>HTML and CSS Project 2 - Dreaming Places</h4>
+             <button type="button" name="close" data-dismiss='modal'>&times;</button>
+           </div>
+           <!--modal body-->
+           <div class="modal-body bg-dark">
+             <img src="images/projects/project2.jpg" alt="Project 2" style='width:100%' title="Project 2 - Sales Website">
+             <p>This second project was aimed at showcasing previously learned HTML skills and using CSS for setting up the layout and styling of the web page. Skils in image manipulation, animation, slide shows and modal windows were also exhibited.</p>
+             <p>A store for popular book collections was made since at present there arent many options when it comes to buying whole collections of books and you usually have to look around a lot for deals and good prices.</p>
+             <a href="project2/index.html" target="_blank" class="links"> Here is a look at my Project 2</a>
+           </div>
+           <hr>
+           <!--modal footer-->
+           <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-dismiss="modal"> Close</button>
+           </div>
+         </div>
+       </div>
+     </div>
+<br><br><br>
+      <div class="container">
+        <h2 class="bg-dark header2">Some facts about HTML, CSS and BOOTSTRAP</h2>
+      </div>
+
+      <div class="container csel">
+        <!-- Carousel - slideshow-->
+        <div class="carousel slide carouselContainer" data-ride='carousel' id="slideshow">
+         <div class="carousel-item active carouselSize">
+           <img src="images/classact/html.jpg" alt="HTML" title="HTML" class="img-thumbnail" >
+           <div class="carousel-caption captionCSS">
+             HTML - (HYPERTEXT MARKUP LANGUAGE) Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+           </div>
+         </div>
+         <div class="carousel-item carouselSize">
+        <img src="images/classact/css.png" alt="CSS" title="CSS" class="img-thumbnail" >
+        <div class="carousel-caption captionCSS">
+          CSS - (CASCADING STYLE SHEET) Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+        </div>
+         </div>
+         <div class="carousel-item carouselSize">
+        <img src="images/classact/bstrap.png" alt="The Vessel" title="The Vessel" class="img-thumbnail" >
+        <div class="carousel-caption captionCSS">
+          BOOTSTRAP - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components.
+        </div>
+         </div>
+
+         <!--- left and right controls--->
+         <a href="#slideshow" data-slide='prev' class="carousel-control-prev"><span class="carousel-control-prev-icon" ></span></a>
+         <a href="#slideshow" data-slide='next' class="carousel-control-next"><span class="carousel-control-next-icon" ></span></a>
+
+        <!--indicators-->
+        <ul class="carousel-indicators">
+          <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+          <li data-target="#slideshow" data-slide-to="1" ></li>
+          <li data-target="#slideshow" data-slide-to="2" ></li>
+        </ul>
+
+        </div><!-- end of carousel--->
+
+      </div>
+
+<br><br><br>
+<!--Class Activities-->
+      <div class="container">
+        <h1 id='Cact' class="bg-dark header2">Class Activities</h1>
+      </div>
+
+      <div class="container">
+        <div class="row classacts">
+          <!--HTML-->
+          <div class="col-sm-4">
+            <div class="card classcards">
+              <img src="images/classact/html.jpg" alt="">
+              <p><b>HTML ACTIVITIES</b></p>
+              <hr>
+              <p>Here is an exercise that shows basic understanding of HTML.</p>
+              <hr>
+              <ul>
+                <li><a href="classwrk/table/index.html" target="_blank">HTML Activity - Tables</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--CSS-->
+          <div class="col-sm-4">
+            <div class="card classcards">
+              <img src="images/classact/css.png" alt="">
+              <p><b>CSS ACTIVITIES</b></p>
+              <hr>
+              <p>These are some activities that exhibited basic CSS.</p>
+              <hr>
+              <ul>
+                <li><a href="classwrk/css1/index.html" target="_blank">CSS Activity 1 - Basic CSS Attributes</a></li>
+                <li><a href="classwrk/css2/index.html" target="_blank">CSS Activity 2 - Animation</a></li>
+                <li><a href="classwrk/css3/index.html" target="_blank">CSS Activity 3 - Image Manipulation</a></li>
+                <li><a href="classwrk/css4/index.html" target="_blank">CSS Activity 4 - Modal Window</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--Bootstrap-->
+          <div class="col-sm-4">
+            <div class="card classcards">
+              <img src="images/classact/bstrap.png" alt="">
+              <p><b>BOOTSTRAP ACTIVITIES</b></p>
+              <hr>
+              <p>Once there was a basic understanding of HTML and CSS, we moved on to Bootstrap, so we could make responsive and mobile format websites.</p>
+              <hr>
+              <ul>
+                <li><a href="classwrk/boot1/index.html" target="_blank">Bootstrap Activity 1 - Layouts and Cards</a></li>
+                <li><a href="classwrk/boot2/index.html" target="_blank">Bootstrap Activity 2 - Navigation Bars and Information Window</a></li>
+                <li><a href="classwrk/boot3/index.html" target="_blank">Bootstrap Activity 3 - Collapsables and Carousels</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+<br><br><br>
+
+<!-- Contact Me-->
+    <div class="container bg-dark contact" id="contact">
+      <h5>Please feel free to contact me for further information:</h5>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h6>Phone Number</h6>
+            <hr>
+            <h6>+1 (518) 496-1525</h6>
+          </div>
+          <div class="col-sm-3">
+            <h6>Email</h6>
+            <hr>
+            <h6>shanesingh9876@gmail.com</h6>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        Follow Shane:
+        <div class="row">
+          <div class="col-sm-2"><a target="blank" title="Follow me on Twitter!" href="https://twitter.com/bareHYP"><img alt="Follow us on Twitter" src="images/logos/twitter.png"></a></div>
+          <div class="col-sm-2"><a target="_blank" title="Follow me on Facebook!" href="https://www.facebook.com/"> <img alt="Facebook"src="images/logos/fb.png" border=0></a></div>
+          <div class="col-sm-2"><a target="_blank" title="Mail to" href="mailto:shanesingh9876@gmail.com"><img alt="Mail to Icon" src="images/logos/mail.png" border=0></a></div>
+          <div class="col-sm-2"><a target="_blank" title="Take a look at Pinterest" href="https://www.pinterest.com/"> <img alt="Pinterest Icon"src="images/logos/pin.png" border=0></a></div>
+          <div class="col-sm-2"><a target="_blank" title="Follow me on Insta!" href="https://www.instagram.com/"> <img alt="IG"src="images/logos/IG.png" border=0></a></div>
+          <div class="col-sm-2"><a target="_blank" title="Check me on Tumblr" href="https://www.tumblr.com/"> <img alt="Tumblr"src="images/logos/tumblr.png" border=0></a></div>
+        </div>
+      </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
